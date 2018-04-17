@@ -14,7 +14,7 @@ ViewController中设置interactionControl的值跑代码可以看到：
 
 2) ZJInteractionControl_Nomal - 加属性控制时，可以达到目的。但是，如果有其他视图需要独立移动，或者跟以上视图之一同时移动，则需要判断黄色、红色视图是否在移动。如果是一个视图多、交互复杂的界面，要加很多属性，并且在交互中穿插对其他视图移动状态的判断，因为每添加一个视图手势就要处理跟之前手势的冲突。
 
-3) ZJInteractionControl_StateModel - 引入ZJStateCodeModel管理每一种交互状态。
+3) ZJInteractionControl_StateModel - 引入ZJStateCodeModel管理每一种交互状态，适合交互多的情况下引入。
 
 
 步骤：
