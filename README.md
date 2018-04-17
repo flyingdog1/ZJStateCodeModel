@@ -23,9 +23,13 @@ ViewController中设置interactionControl的值跑代码可以看到：
 
 
 2. 注册每种状态码：（model中会按注册顺序，分配一个经过偏移计算的数值给状态码属性）
-- (NSUInteger) registerCustomState{
+- (NSUInteger) registerCustomState
+{
+
     _tag++;
+    
     return 1<<_tag;
+    
 }
 
 
