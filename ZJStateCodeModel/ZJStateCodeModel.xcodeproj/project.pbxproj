@@ -13,6 +13,7 @@
 		ACC9D4212085F97D00B4F038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC9D4202085F97D00B4F038 /* Assets.xcassets */; };
 		ACC9D4242085F97D00B4F038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC9D4222085F97D00B4F038 /* LaunchScreen.storyboard */; };
 		ACC9D4272085F97D00B4F038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9D4262085F97D00B4F038 /* main.m */; };
+		ACC9D42F2085FB7900B4F038 /* ZJStateCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9D42E2085FB7900B4F038 /* ZJStateCodeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ACC9D4232085F97D00B4F038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC9D4252085F97D00B4F038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC9D4262085F97D00B4F038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC9D42D2085FB7900B4F038 /* ZJStateCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJStateCodeModel.h; sourceTree = "<group>"; };
+		ACC9D42E2085FB7900B4F038 /* ZJStateCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJStateCodeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				ACC9D4182085F97C00B4F038 /* AppDelegate.m */,
 				ACC9D41A2085F97C00B4F038 /* ViewController.h */,
 				ACC9D41B2085F97C00B4F038 /* ViewController.m */,
+				ACC9D42D2085FB7900B4F038 /* ZJStateCodeModel.h */,
+				ACC9D42E2085FB7900B4F038 /* ZJStateCodeModel.m */,
 				ACC9D41D2085F97C00B4F038 /* Main.storyboard */,
 				ACC9D4202085F97D00B4F038 /* Assets.xcassets */,
 				ACC9D4222085F97D00B4F038 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				ACC9D41C2085F97C00B4F038 /* ViewController.m in Sources */,
 				ACC9D4272085F97D00B4F038 /* main.m in Sources */,
 				ACC9D4192085F97C00B4F038 /* AppDelegate.m in Sources */,
+				ACC9D42F2085FB7900B4F038 /* ZJStateCodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
