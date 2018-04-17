@@ -19,11 +19,11 @@ typedef NS_ENUM(NSUInteger, ZJInteractionControl) {
 @property (nonatomic, assign)ZJInteractionControl interactionControl;
 
 //实现方式1
-@property (nonatomic, strong) ZJStateCodeModel *stateModel;
-
-//实现方式2
 @property (nonatomic, assign) BOOL redPan;
 @property (nonatomic, assign) BOOL yellowPan;
+
+//实现方式2
+@property (nonatomic, strong) ZJStateCodeModel *stateModel;
 
 @property (nonatomic, strong) UIView *redView;
 @property (nonatomic, strong) UIView *yellowView;
